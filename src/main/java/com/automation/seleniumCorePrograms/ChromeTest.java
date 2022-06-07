@@ -9,10 +9,10 @@ public class ChromeTest
      public static void main(String[] args)
     {
         System.setProperty("webdriver.chrome.driver","/Users/neelimak/Downloads/chromedriver");
-        //ChromeDriver driver = new ChromeDriver();
+        ChromeDriver driver = new ChromeDriver();
           //WebDriver driver=new ChromeDriver();
         RemoteWebDriver driver=new ChromeDriver();
-        //driver.get("https://formy-project.herokuapp.com/form");
+        driver.get("https://formy-project.herokuapp.com/form");
         driver.findElement(By.id("first-name")).sendKeys("First Name");
         driver.findElement(By.id("last-name")).sendKeys("Last Name");
         driver.findElement(By.xpath("//a[contains(text(),'Submit')]")).click();
