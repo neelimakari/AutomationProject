@@ -29,5 +29,13 @@ public class ChromeDemo3
         nxt.click();
         Thread.sleep(5000);
         driver.close();
+        /*PriorityQueue queue=new PriorityQueue();
+        queue.add("hello");
+        queue.add("neelima");
+        queue.add("iT JOB");
+        queue.add("fAMILY");
+        queue.add("hOUSE");
+        //queue.add(null);
+        System.out.println(queue);*/
     }
 }
